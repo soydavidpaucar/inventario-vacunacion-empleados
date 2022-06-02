@@ -1,9 +1,9 @@
 function App() {
-  return (
-    <div>
-      health check
-    </div>
-  );
+	return (
+		<div>
+			health check
+		</div>
+	);
 }
 
 export default App;
