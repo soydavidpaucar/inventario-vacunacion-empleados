@@ -25,6 +25,7 @@ Para cumplir con los requerimientos de Kruger Corporation se ha tomado la decisi
 - [ ] Creación de filtros
 - [ ] Responsive Design
 - [ ] Validaciones de duplicidad en la base de datos
+- [ ] Estandarizar los estilos
 
 ## 📍 Instalación y Ejecución del Ambiente de Desarrollo
 
