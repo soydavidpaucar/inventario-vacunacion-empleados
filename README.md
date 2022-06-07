@@ -43,4 +43,4 @@ Para ejecutar la aplicación en su máquina local:
    ```sh
    yarn && yarn start
    ```
-8. Con esto nuestro entorno está listo, para empezar a utilizar la aplicación debemos abrir en el navegador la siguiente url: http://localhost:3000
+8. Con esto nuestro entorno está listo, para empezar a utilizar la aplicación debemos abrir en el navegador la siguiente url: <http://localhost:3000>
