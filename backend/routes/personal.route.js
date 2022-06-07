@@ -1,10 +1,10 @@
 let express = require('express'),
 	router = express.Router();
 
-// Student Model
+// Personal Model
 let personalSchema = require('../models/Personal');
 
-// CREATE Student
+// CREATE Personal
 router.post('/crear-empleado', (req, res, next) => {
 	personalSchema.create(req.body, (error, data) => {
 		if (error) {
@@ -16,7 +16,7 @@ router.post('/crear-empleado', (req, res, next) => {
 	});
 });
 
-// READ Students
+// READ Personal
 router.get('/', (req, res, next) => {
 	personalSchema.find((error, data) => {
 		if (error) {
@@ -27,7 +27,7 @@ router.get('/', (req, res, next) => {
 	});
 });
 
-// UPDATE student
+// UPDATE Personal
 router
 	.route('/actualizar-empleado/:id')
 	// Get Single Student
@@ -41,7 +41,7 @@ router
 		});
 	})
 
-	// Update Student Data
+	// Update Personal Data
 	.put((req, res, next) => {
 		personalSchema.findByIdAndUpdate(
 			req.params.id,
@@ -59,7 +59,7 @@ router
 		);
 	});
 
-// Delete Student
+// Delete Personal
 router.delete('/eliminar-empleado/:id', (req, res, next) => {
 	personalSchema.findByIdAndRemove(req.params.id, (error, data) => {
 		if (error) {
