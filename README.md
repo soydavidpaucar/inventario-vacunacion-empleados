@@ -1,6 +1,6 @@
 # Inventario de Vacunación de Empleados
 
-## 📄 Caso de Uso
+## 📄 Caso de Estudio
 
 Kruger Corporation requiere de una aplicación para llevar un registro del inventario del estado de vacunación de los empleados.
 
